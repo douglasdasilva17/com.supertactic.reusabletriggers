@@ -1,0 +1,14 @@
+{
+  "name": "com.supertactic.reusabletriggers",
+  "displayName": "Supertactic Reusable Triggers",
+  "version": "1.0.0",
+  "description": "A lightweight Unity package for creating and managing reusable trigger events, making it easy to handle interactions across multiple objects and scenes.",
+  "unity": "2022.3",
+  "dependencies": {
+  },
+  "keywords": [
+    "triggers",
+    "events",
+    "utility"
+  ],
+}
