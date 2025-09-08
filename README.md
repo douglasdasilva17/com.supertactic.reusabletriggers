@@ -20,10 +20,10 @@ A lightweight Unity package for creating and managing reusable trigger events, m
 
 ## How to Use
 
-1. Drag the `FadeObstructionManager` prefab into your scene.
+1. Add the **TriggerZone** (3D) or **TriggerZone2D** script to your GameObject and assign a Collider component (use **Collider2D** for **TriggerZone2D**).
 
-2. Assign your `Main Camera` (or another camera) in the inspector.
+2. In the Inspector, enable the **Is Trigger** checkbox on the Collider.
 
-3. Set the `Player Layer Mask` for physics optimization.
+3. Set the target's tag in the `Collision Tag` field.
 
-4. Adjust fade parameters such as duration, intensity, and collision layers.
+4. Done! Your reusable trigger is now ready to use.
