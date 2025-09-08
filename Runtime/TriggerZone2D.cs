@@ -11,6 +11,7 @@ namespace Supertactic.ReusableTriggers
 
         public string CollisionTag;
 
+        [Header("Events")]
         public UnityEvent OnEnter;
         public UnityEvent OnExit;
 

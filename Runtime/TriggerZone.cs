@@ -1,15 +1,17 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class TriggerZone : MonoBehaviour
+namespace Supertactic.ReusableTriggers
 {
-    
+    public class TriggerZone : MonoBehaviour
+    {
         public bool OneShot;
         private bool _isAlreadyEntered;
         private bool _isAlreadyExited;
 
         public string CollisionTag;
 
+        [Header("Events")]
         public UnityEvent OnEnter;
         public UnityEvent OnExit;
 
@@ -40,4 +42,5 @@ public class TriggerZone : MonoBehaviour
             if (OneShot)
                 _isAlreadyExited = true;
         }
+    }
 }
